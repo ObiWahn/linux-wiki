@@ -15,3 +15,10 @@
 
 ## units
 
+### user locations
+
+ - `/usr/lib/systemd/user/` where units provided by installed packages belong.
+ - `~/.local/share/systemd/user/` where units of packages that have been installed in the home directory belong.
+ - `/etc/systemd/user/` where system-wide user units are placed by the system administrator.
+ - `~/.config/systemd/user/` where the user puts their own units.
+
